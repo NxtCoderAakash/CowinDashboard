@@ -1,0 +1,64 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  background-color: #161625;
+  color: #6c757d;
+}
+.container-card {
+  width: 1200px;
+
+  background-color: #161625;
+  color: #6c757d;
+}
+.logo-container {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+.graph-card {
+  padding: 20px;
+  width: 1200px;
+
+  min-height: 600px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #1c1c2b;
+}
+.logo-label {
+  color: green;
+}
+.logo-container {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-image {
+  height: 50px;
+  width: 50px;
+}
+.graph-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+.failure-image {
+  height: 300px;
+  width: 300px;
+}
+.failure-heading {
+  font-family: bree-sherif;
+}
+.data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
